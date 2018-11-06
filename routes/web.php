@@ -20,4 +20,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 
-Route::get('/payment_methods', 'CashBoxController@payment_methods')->name('p-methods');
+Route::get('/caja', 'CashBoxController@create')->name('cash-box');
+
+Route::get('/metodos-de-pago', 'PaymentMethodsController@index')->name('p-methods');

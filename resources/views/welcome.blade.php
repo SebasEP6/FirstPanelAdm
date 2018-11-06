@@ -85,6 +85,7 @@
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentación</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="{{ route('cash-box') }}">Caja</a>
                 </div>
             </div>
         </div>
