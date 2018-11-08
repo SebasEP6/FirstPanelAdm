@@ -22,4 +22,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/caja', 'CashBoxController@create')->name('cash-box');
 
-Route::get('/metodos-de-pago', 'PaymentMethodsController@index')->name('p-methods');
+Route::get('/caja/metodos-de-pago', 'CashBoxController@paymentMethod')->name('p-methods');
+
+Route::get('/caja/retiros', 'CashBoxController@withdraw')->name('withdraw');
+
+Route::get('/equipo/asistencia', 'AssistanceController@control')->name('take-assistance');

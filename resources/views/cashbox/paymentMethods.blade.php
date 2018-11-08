@@ -36,12 +36,17 @@
                   <td>Método de pago</td>
                 </tr>
                 <tr class="collapse" id="collapseExample">
-                  <td colspan="2">
-                    <form action="#" class="form-inline">
+                  <form action="#" class="form-inline">
+                    <td>
                       <input type="text" class="form-control mb-2 mr-sm-2" id="newPaymentMethod" placeholder="Nuevo método de pago">
+                    </td>
+                    <td>
                       <button type="submit" class="btn btn-link mb-2"><span data-feather="save"></span></button>
-                    </form>
-                  </td>
+                      <button data-toggle="collapse" class="btn btn-link mb-2"  data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        <span data-feather="x"></span>
+                      </button>
+                    </td>
+                  </form>
                 </tr>
               </tbody>
             </table>
@@ -78,5 +83,4 @@
           </div>
 
         </main>
-      </div>
 @endsection()
