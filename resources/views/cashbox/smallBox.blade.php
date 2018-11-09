@@ -12,17 +12,20 @@
                 <th>Fecha</th>
                 <th>Monto</th>
                 <th>Factura/Boleta</th>
+                <th>Número de Comprobante</th>
                 <th>Motivo</th>
               </tr>
               <tr>
                 <td>01/11/2018</td>
                 <td class="text-success">12.000</td>
                 <td>N/A</td>
+                <td>N/A</td>
                 <td>Arturo</td>
               </tr>
               <tr>
                 <td>01/11/2018</td>
                 <td class="text-danger">12.000</td>
+                <td>N/A</td>
                 <td>N/A</td>
                 <td>Pago personal cocina (Empleado)</td>
               </tr>
@@ -30,11 +33,13 @@
                 <td>01/11/2018</td>
                 <td class="text-success">12.000</td>
                 <td>N/A</td>
+                <td>N/A</td>
                 <td>Arturo</td>
               </tr>
               <tr>
                 <td>01/11/2018</td>
                 <td class="text-danger">12.000</td>
+                <td>N/A</td>
                 <td>N/A</td>
                 <td>Pago personal cocina (Empleado)</td>
               </tr>
@@ -42,11 +47,13 @@
                 <td>01/11/2018</td>
                 <td class="text-success">12.000</td>
                 <td>N/A</td>
+                <td>N/A</td>
                 <td>Arturo</td>
               </tr>
               <tr>
                 <td>01/11/2018</td>
                 <td class="text-danger">12.000</td>
+                <td>N/A</td>
                 <td>N/A</td>
                 <td>Pago personal cocina (Empleado)</td>
               </tr>
@@ -54,11 +61,13 @@
                 <td>01/11/2018</td>
                 <td class="text-success">12.000</td>
                 <td>N/A</td>
+                <td>N/A</td>
                 <td>Arturo</td>
               </tr>
               <tr>
                 <td>01/11/2018</td>
                 <td class="text-danger">12.000</td>
+                <td>N/A</td>
                 <td>N/A</td>
                 <td>Pago personal cocina (Empleado)</td>
               </tr>
